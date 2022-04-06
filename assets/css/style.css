@@ -29,10 +29,11 @@ dd, dl, h1, p {
 }
 
 h1, h2 {
-	font-size: inherit;
+	font-size: 30px;
 	font-weight: 400;
-	margin: 0;
+	margin: 5px;
 	line-height: .8;
+	padding-bottom: 20px;
 }
 
 a {
@@ -58,10 +59,24 @@ a:hover, a:focus {
 
 .main-text {
 	font: 500 20px/1 "Roboto Mono", Helvetica, sans-serif;
+	
 }
 
 .main-text-small {
 	font-size: 15px;
+	
+}
+
+.good{
+	color: #66BB6A;
+}
+
+.meh{
+	color: #F9A825;
+}
+
+.bad{
+	color: #66BB6A;
 }
 
 .logo {
@@ -85,12 +100,12 @@ a:hover, a:focus {
 .section {
 	z-index: 1;
 	position: relative;
-	padding: 96px 0 96px 96px;
+	padding: 96px 96px 96px 96px;
 	width: calc(100vw - 96px - 7em);
 	display: -webkit-box;
 	display: flex;
 	box-sizing: border-box;
-	min-height: 100vh;
+	min-height: 20vh;
 }
 
 @media (max-width: 1024px) {
@@ -118,9 +133,10 @@ a:hover, a:focus {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	flex-direction: column;
+	
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 	.column-section-main {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
@@ -131,16 +147,18 @@ a:hover, a:focus {
 .section-bio {
 	-webkit-box-pack: justify;
 	justify-content: space-between;
+	padding-bottom: 0px;
 }
 
 .col-section {
 	width: 100%;
-	max-width: 382px;
+	max-width: 3000px;
+	padding-bottom: 50px;
 }
 
 @media (max-width: 600px) {
 	.col-section {
-		margin-bottom: 15vw;
+		margin-bottom: 10vw;
 	}
 }
 
