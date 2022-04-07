@@ -79,6 +79,10 @@ a:hover, a:focus {
 	color: #66BB6A;
 }
 
+.plat{
+	color:#F0F4C3
+}
+
 .logo {
 	background: url('../images/logo.svg') no-repeat;
 	background-position: top left, top left;
