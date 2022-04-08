@@ -35,6 +35,12 @@ h1, h2 {
 	line-height: .8;
 	padding-bottom: 20px;
 }
+h3{
+	font-size: 15px;
+	padding:0%;
+	margin:0px;
+	text-decoration: underline;
+}
 
 a {
 	color: inherit;
@@ -76,7 +82,7 @@ a:hover, a:focus {
 }
 
 .bad{
-	color: #66BB6A;
+	color: #FF5252;
 }
 
 .plat{
